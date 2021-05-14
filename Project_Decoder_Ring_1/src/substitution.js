@@ -38,4 +38,4 @@ const substitutionModule = (function () {
   };
 })();
 
-module.exports = substitution;
+module.exports = { substitution: substitutionModule.substitution };
