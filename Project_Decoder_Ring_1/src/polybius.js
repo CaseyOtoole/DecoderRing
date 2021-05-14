@@ -63,4 +63,4 @@ const polybiusModule = (function () {
   };
 })();
 polybiusModule.polybius("hello");
-module.exports = polybius;
+module.exports = { polybius: polybiusModule.polybius };
