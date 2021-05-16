@@ -47,4 +47,3 @@ describe("Caesar function should encode/decode any message", () => {
   });
 
   
-  module.exports = caesarModule.caesar;
